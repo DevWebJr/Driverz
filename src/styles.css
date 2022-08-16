@@ -1,0 +1,78 @@
+body, html{
+  margin: 0;
+  padding: 0;
+  background-color: #E74C3C;
+  color: #FFFFFF;
+}
+
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.check{
+  min-width: 5vw;
+  max-width: 5vw;
+  min-height: 5vw;
+  max-height: 5vw;
+}
+
+.delete{
+  min-width: 3.6vw;
+  max-width: 3.6vw;
+  min-height: 3.6vw;
+  max-height: 3.6vw;
+}
+
+.buttons-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  margin-top: 5vw;
+  padding: 3vw;
+  min-width: 19vw;
+  max-width: 19vw;
+  border-radius: 5px;
+  border: solid 2px #FFFFFF;
+}
+
+.standard-label{
+  margin: .6vw;
+  padding: .4vw;
+  border: solid 2px #FFFFFF;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  min-width: 11vw;
+  max-width: 11vw;
+  background-color: #E74C3C;
+  color: #FFFFFF;
+}
+
+.standard-label::placeholder {
+  color: #FFFFFF;
+  opacity: .6;
+}
+
+.standard-button{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border: solid 1px #FFFFFF;
+  border-radius: 5px;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  min-width: 9vw;
+  max-width: 9vw;
+  min-height: 2vw;
+  max-height: 2vw;
+}
+
+

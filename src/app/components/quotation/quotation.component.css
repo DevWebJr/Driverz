@@ -1,0 +1,21 @@
+.quotation-label{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.search-label::placeholder {
+  color: #FFFFFF;
+  opacity: .6;
+}
+
+#kms, #run, #euros, #refresh{
+  min-width: 6vw;
+  max-width: 6vw;
+  min-height: 5vw;
+  max-height: 5vw;
+
+}

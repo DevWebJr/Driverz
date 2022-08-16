@@ -1,0 +1,33 @@
+.account-container{
+  margin: 5vw;
+  padding: 3vw;
+  min-width: 25vw;
+  max-width: 25vw;
+  border-radius: 5px;
+  border: solid 2px #FFFFFF;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+
+.standard-labels{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.user-question{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: .75em;
+  text-decoration-line: underline;
+}

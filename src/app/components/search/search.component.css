@@ -1,0 +1,35 @@
+#start-input, #finish-input{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border: solid 1px #FFFFFF;
+  border-radius: 5px;
+  margin: 0;
+  min-width: 8vw;
+  max-width: 8vw;
+  min-height: 2vw;
+  max-height: 2vw;
+}
+
+#start, #finish, #euros, #refresh{
+  min-width: 6vw;
+  max-width: 6vw;
+  min-height: 5vw;
+  max-height: 5vw;
+
+}
+
+.search-label{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.search-label::placeholder {
+  color: #FFFFFF;
+  opacity: .6;
+}

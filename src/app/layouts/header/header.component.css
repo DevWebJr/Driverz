@@ -1,0 +1,14 @@
+header{
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+#home-button{
+  margin-left: .5vw;
+  min-width: 6vw;
+  max-width: 6vw;
+  min-height: 8vw;
+  max-height: 8vw;
+}
